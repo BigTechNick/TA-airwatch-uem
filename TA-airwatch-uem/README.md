@@ -1,6 +1,6 @@
-# Nikhil Chawla Add-on for AirWatch (Workspace ONE UEM)
+# Omnissa Workspace ONE UEM (AirWatch) Device Location (GPS) Add-on
 
-Version 1.0.1. App ID (folder name): `TA-airwatch-uem`.
+Version 1.0.2. App ID (folder name): `TA-airwatch-uem`.
 
 Collects **device GPS locations** from Workspace ONE UEM (AirWatch) over its REST API.
 Each sample gets the device's serial number, friendly name, user name and e-mail
@@ -202,6 +202,11 @@ It prints the run summary. `--help` lists every option.
 * *CEF folder over N MB*: the syslog agent is not reading or deleting the CEF files.
 
 ## Release notes
+
+**1.0.2**
+* Renamed to "Omnissa Workspace ONE UEM (AirWatch) Device Location (GPS) Add-on"
+  (Splunkbase listing name). The app ID stays `TA-airwatch-uem`, so upgrades,
+  inputs, OAuth clients and checkpoints are not affected.
 
 **1.0.1**
 * City data rebuilt from the current GeoNames dump (171,579 places); populations are

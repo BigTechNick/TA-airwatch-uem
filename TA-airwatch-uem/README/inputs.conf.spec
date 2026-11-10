@@ -1,8 +1,7 @@
 [airwatch_gps://<name>]
 * One input per Workspace ONE UEM (AirWatch) console. <name>: letters, digits,
   '.', '_' or '-' (max 64), starting with a letter or digit.
-* Created and edited in Splunk Web: app "Nikhil Chawla Add-on for AirWatch
-  (Workspace ONE UEM)" > Inputs (or Settings > Data inputs > AirWatch device
+* Created and edited in Splunk Web: app "Omnissa Workspace ONE UEM (AirWatch) Device Location (GPS) Add-on" > Inputs (or Settings > Data inputs > AirWatch device
   GPS).
 * Runs on the input's schedule (interval: seconds, or a cron schedule such as
   "1 * * * *"; default 3600). Each run collects the device GPS samples since the

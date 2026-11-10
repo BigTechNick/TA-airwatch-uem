@@ -1,6 +1,6 @@
-# Nikhil Chawla Add-on for AirWatch (Workspace ONE UEM)
+# Omnissa Workspace ONE UEM (AirWatch) Device Location (GPS) Add-on
 
-Splunk add-on `TA-airwatch-uem`, version 1.0.1.
+Splunk add-on `TA-airwatch-uem`, version 1.0.2.
 
 Collects device GPS locations from Workspace ONE UEM (AirWatch) with each device's user and the nearest city, for Splunk (sourcetype airwatch:gps) and/or as CEF files. OAuth clients, inputs and status are managed in Splunk Web. Not affiliated with the product's vendor.
 
