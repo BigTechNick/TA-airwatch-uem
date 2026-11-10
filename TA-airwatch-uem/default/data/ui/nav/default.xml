@@ -1,0 +1,8 @@
+<nav search_view="search" color="#1F5F8B">
+  <view name="airwatch_gps_status" default="true"/>
+  <view name="airwatch_gps_inputs"/>
+  <view name="search"/>
+  <collection label="More">
+    <a href="/manager/TA-airwatch-uem/data/inputs/airwatch_gps">Inputs in Settings &gt; Data inputs</a>
+  </collection>
+</nav>

@@ -1,0 +1,30 @@
+TA-airwatch-uem (Workspace ONE UEM / AirWatch device GPS add-on for Splunk)
+Copyright 2026 Nikhil Chawla
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This add-on is an independent project. It is not affiliated with, endorsed by
+or supported by the vendor of Workspace ONE UEM. AirWatch and Workspace ONE are
+trademarks of their owners. Splunk is a trademark of Splunk LLC. Other names
+are the trademarks of their owners and are used here only to describe what the
+add-on works with.
+
+The add-on uses the product's documented REST API (OAuth client credentials,
+device search and device GPS search). It contains no code from the vendor.
+
+City data
+---------
+lookups/airwatch_gps_cities.csv.gz and lookups/airwatch_gps_countries.csv are
+derived from the GeoNames geographical database (https://www.geonames.org/):
+cities1000 (places with 1,000 or more inhabitants, and seats of
+administrative divisions), with the names of their
+first-level (admin1, "state") and second-level (admin2, "county")
+administrative divisions, and the GeoNames country names, as downloaded from
+https://download.geonames.org/export/dump/ on 2026-10-22. GeoNames data is
+licensed under the Creative Commons Attribution 4.0 License
+(https://creativecommons.org/licenses/by/4.0/). The data is provided "as is"
+without warranty or any representation of accuracy, timeliness or
+completeness. Changes made for this add-on: converted to CSV with only the
+columns it uses (position, country code, name, population, division names);
+names trimmed of surrounding spaces; a second-level division with the same name
+as the place left empty; places without a position or country code left out.

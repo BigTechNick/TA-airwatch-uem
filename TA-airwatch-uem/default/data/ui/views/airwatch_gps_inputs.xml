@@ -1,0 +1,11 @@
+<dashboard version="1.1" script="airwatch_gps_inputs.js" stylesheet="airwatch_gps_inputs.css" hideEdit="true" isDashboard="false">
+  <label>Inputs</label>
+  <description>Workspace ONE UEM consoles to collect from, and the OAuth clients they sign in with.</description>
+  <row>
+    <panel>
+      <html>
+        <div id="aw-inputs-app">Loading...</div>
+      </html>
+    </panel>
+  </row>
+</dashboard>
